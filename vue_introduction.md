@@ -163,7 +163,7 @@ var app2 = new Vue({
     })
     ``` 
  
-    ![Alt text](./img1.png)
+    ![Alt text](./img//img1.png)
 
      而這部分官網有特別註明一段文字 >Note that in this method we update the state of our app without touching the DOM - all DOM manipulations are handled by Vue, and the code you write is focused on the underlying logic.
      
@@ -187,7 +187,7 @@ var app2 = new Vue({
     })
     ``` 
     
-    ![Alt text](./img2.png) 
+    ![Alt text](./img/img2.png) 
  
     如此一來，當我們改變 input 輸入內容的同時，畫面狀態也會同時改變。---### Composing with Components>The component system is another important concept in Vue, because it’s an abstraction that allows us to build large-scale applications composed of small, self-contained, and often reusable components.
 
