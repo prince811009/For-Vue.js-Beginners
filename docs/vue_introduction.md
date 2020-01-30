@@ -162,10 +162,10 @@ var app2 = new Vue({
       }  
     })
     ``` 
- 
-    ![Alt text](./img1.png)
 
-     而這部分官網有特別註明一段文字 >Note that in this method we update the state of our app without touching the DOM - all DOM manipulations are handled by Vue, and the code you write is focused on the underlying logic.
+     而這部分官網有特別註明一段文字 
+     
+     >Note that in this method we update the state of our app without touching the DOM - all DOM manipulations are handled by Vue, and the code you write is focused on the underlying logic.
      
     指當我們在更新狀態時，並沒有碰觸到 DOM，因為這些已經由 Vue 處理完畢，我們只需要專注於邏輯層面即可。
 
@@ -185,13 +185,16 @@ var app2 = new Vue({
         message: 'Hello Vue!'
       }
     })
-    ``` 
-    
-    ![Alt text](../img/img2.png) 
- 
-    如此一來，當我們改變 input 輸入內容的同時，畫面狀態也會同時改變。---### Composing with Components>The component system is another important concept in Vue, because it’s an abstraction that allows us to build large-scale applications composed of small, self-contained, and often reusable components.
+    ```
 
-    組件系統可以讓我們使用小型、獨立和可重複使用的組件來建構大型的 applications。
+    如此一來，當我們改變 input 輸入內容的同時，畫面狀態也會同時改變。
+    
+---
+### Composing with Components
+    
+>The component system is another important concept in Vue, because it’s an abstraction that allows us to build large-scale applications composed of small, self-contained, and often reusable components.
+
+組件系統可以讓我們使用小型、獨立和可重複使用的組件來建構大型的 applications。
 
 ```js
 // Define a new component called todo-item
@@ -223,7 +226,7 @@ Vue.component('todo-item', {
 })
 ```
 
-    如此一來， 便可以透過 `prop` 將 data 從父作用域傳送到子組件，且不會影響到父層。
+  如此一來， 便可以透過 `prop` 將 data 從父作用域傳送到子組件，且不會影響到父層。
 
 綜合上述的指令，可以試著做出以下的範例：
 ```html
