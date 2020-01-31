@@ -6,7 +6,7 @@ For-Vue.js-Beginners
 ----------
 - [Introduction](docs/vue_introduction.md)
 - [The Vue Instance](docs/vue_theVueInstance.md)
-- [Template Syntax]
+- [Template Syntax](docs/vue_templateSyntax.md)
 - [Computed Properties and Watchers]
 - [Class and Style Bindings]
 - [Conditional Rendering]
